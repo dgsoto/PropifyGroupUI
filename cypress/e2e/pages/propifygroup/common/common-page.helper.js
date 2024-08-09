@@ -29,4 +29,8 @@ export class CommonPageHelper {
     static clickOnLoginOption() {
         CommonPageElements.topMenu.login.click();
     }
+
+    static clickOnRegisterOption() {
+        CommonPageElements.topMenu.register.click();
+    }
 }
