@@ -19,6 +19,9 @@ export class CommonPageElements {
             get login() {
                 return cy.get('a[href="/auth/login"]');
             },
+            get register() {
+                return cy.get('a[href="/auth/register"]');
+            },
         }
     }
 
