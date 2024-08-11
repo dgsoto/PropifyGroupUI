@@ -1,6 +1,6 @@
-import { RegisterPageConstants } from "../pages/propifygroup/auth/register/register-page.constants";
-import { RegisterPageHelper } from "../pages/propifygroup/auth/register/register-page.helper";
-import { CommonPageHelper } from "../pages/propifygroup/common/common-page.helper";
+import { RegisterPageConstants } from "../../pages/propifygroup/auth/register/register-page.constants";
+import { RegisterPageHelper } from "../../pages/propifygroup/auth/register/register-page.helper";
+import { CommonPageHelper } from "../../pages/propifygroup/common/common-page.helper";
 
 describe("Suite Register User Tests", () => {
 
@@ -25,7 +25,7 @@ describe("Suite Register User Tests", () => {
 
     it("Verify that it is possible to create a new user.", () => {
         RegisterPageHelper.registerUser(user);
-        cy.wait(30000);
+        cy.wait(1000);
     });
 
 });
