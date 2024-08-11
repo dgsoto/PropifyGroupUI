@@ -8,8 +8,8 @@ export class LoginPageConstants {
 
     static get data() {
         return {
-            username: "test@test.com",
-            password: "test12345",
+            username: Cypress.env('username'),
+            password: Cypress.env('password'),
         }
     }
 }

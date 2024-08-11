@@ -1,8 +1,8 @@
-import { LoginPageConstants } from "../pages/propifygroup/auth/login/login-page.constants";
-import { LoginPageHelper } from "../pages/propifygroup/auth/login/login-page.helper";
-import { LoginPageValidation } from "../pages/propifygroup/auth/login/login-page.validation";
-import { CommonPageHelper } from "../pages/propifygroup/common/common-page.helper";
-import { CommonPageValidation } from "../pages/propifygroup/common/common-page.validation";
+import { LoginPageConstants } from "../../pages/propifygroup/auth/login/login-page.constants";
+import { LoginPageHelper } from "../../pages/propifygroup/auth/login/login-page.helper";
+import { LoginPageValidation } from "../../pages/propifygroup/auth/login/login-page.validation";
+import { CommonPageHelper } from "../../pages/propifygroup/common/common-page.helper";
+import { CommonPageValidation } from "../../pages/propifygroup/common/common-page.validation";
 
 describe("Login Suite Tests", () => {
 
